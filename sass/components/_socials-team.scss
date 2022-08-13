@@ -3,9 +3,16 @@
 
     display: flex;
     gap: 10px;
-    padding-left: 32px;
+    
     margin-top: 0px;
     margin-bottom: 0px;
+    padding-left: 122px;
+    @media screen and(min-width: 768px) and(max-width: 1199px) {
+      padding-left: 74px;
+    }
+    @media screen and(min-width: 1200px) {
+      padding-left: 32px;
+    }
   }
   .social-list__link {
     @extend %reset-link;

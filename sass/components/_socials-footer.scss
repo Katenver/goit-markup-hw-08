@@ -1,5 +1,9 @@
 .footer-social {
-    margin-right: 93px;
+   
+    @media screen and(min-width: 1200px) {
+        margin-right: 93px;
+    }
+    
 }
 
 .footer-social__title {
@@ -10,6 +14,10 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 20px;
+
+    @media screen and(max-width: 768px) {
+    margin-top: 60px;
+    }
 }
 
 .footer-social__list {
@@ -20,6 +28,9 @@
     padding-left: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .footer-social__link {

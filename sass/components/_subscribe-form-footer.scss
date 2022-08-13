@@ -1,6 +1,21 @@
+.footer-form {
+@media screen and(max-width: 1199px) {
+  margin-top: 60px;
+  width: 100%;
+  max-width: 768px;
+}
+}
+
 .footer-form__items {
-  display: flex;
-  gap: 12px;
+  justify-content: center;
+    align-items: center;
+    
+
+  @media screen and(min-width: 1200px){
+    display: flex;
+    gap: 12px;
+  }
+  
 }
 
 .footer-form__title {
@@ -11,6 +26,8 @@
   text-transform: uppercase;
   line-height: 1.14;
 }
+
+
 
 .subscribe-form__input {
   width: 100%;
@@ -24,6 +41,7 @@
   outline: transparent;
   transition: border-color 250ms var(--cubic);
   color: #ffffff;
+  
 
   &:focus {
     border-color: #2196f3;
@@ -60,4 +78,11 @@
   &:hover,
   &:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);}
+
+  @media screen and(max-width: 1199px) {
+   margin-top: 20px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+  }
 }

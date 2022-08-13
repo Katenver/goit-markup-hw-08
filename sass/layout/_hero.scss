@@ -16,11 +16,17 @@
     margin-bottom: 30px;
     text-align: center;
 
-    @include fonts(44px, 1.36, 900, 0.06em);
-  
     text-transform: uppercase;
     color: var(--btn-txt-cl);
-  }
+
+
+    @include fonts(26px, 1.61, 900, 0.06em);
+
+    @media screen and (min-width: 1200px) {
+    font-size: 44px;
+    line-height: 1.36;
+    }
+ }
   
   .hero__btn {
     display: block;
