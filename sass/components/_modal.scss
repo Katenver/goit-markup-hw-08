@@ -29,8 +29,12 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
+    width: 450px;
   
-    width: 528px;
+    @media screen and(min-width: 1200px){
+      width: 528px;
+    }
+    
   
     background-color: #ffffff;
     border-radius: 4px;

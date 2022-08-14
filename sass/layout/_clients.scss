@@ -64,6 +64,11 @@
   .clients__icon {
     fill: #afb1b8;
     transition: fill 250ms var(--cubic);
+
+    .clients__link:hover &,
+    .clients__link:focus & {
+      fill:#2196F3;
+    }
   }
   
   
