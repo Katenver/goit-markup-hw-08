@@ -10,32 +10,32 @@
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../../images/bcgr.jpeg/backgroud_img@2x-m.jpg');
+      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/bcgr.jpeg/backgroud_img@2x-m.jpg');
       
     }
   
     // tablet screen
     @media screen and (min-width: 768px) {
-      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../../images/bcgr.jpeg/backgroud_img@1x-t.jpg');
+      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/bcgr.jpeg/backgroud_img@1x-t.jpg');
       
   
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../../images/bcgr.jpeg/backgroud_img@2x-t.jpg');
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/bcgr.jpeg/backgroud_img@2x-t.jpg');
  
       }
     }
   
     // desktop screen
     @media screen and (min-width: 1200px) {
-      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../../images/bcgr.jpeg/backgroud_img@1x-d.jpg');
+      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/bcgr.jpeg/backgroud_img@1x-d.jpg');
       padding: 200px  0;
   
       @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../../images/bcgr.jpeg/backgroud_img@2x-d.jpg');
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/bcgr.jpeg/backgroud_img@2x-d.jpg');
       
       }
     }
