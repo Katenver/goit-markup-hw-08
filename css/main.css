@@ -957,15 +957,16 @@ img {
 .nav-contacts__list .nav-contacts__phone:hover, .nav-contacts__list .nav-contacts__phone:focus {
   color: var(--accent-txt);
 }
-.nav-contacts__list .nav-contacts__icon {
+
+.nav-contacts__icon {
   fill: #757575;
   -webkit-transition: fill 250ms var(--cubic);
   transition: fill 250ms var(--cubic);
 }
-.nav-contacts__mail:focus .nav-contacts__list .nav-contacts__icon, .nav-contacts__mail:hover .nav-contacts__list .nav-contacts__icon {
+.nav-contacts__mail:focus .nav-contacts__icon, .nav-contacts__mail:hover .nav-contacts__icon {
   fill: var(--accent-txt);
 }
-.nav-contacts__phone:hover .nav-contacts__list .nav-contacts__icon, .nav-contacts__phone:focus .nav-contacts__list .nav-contacts__icon {
+.nav-contacts__phone:hover .nav-contacts__icon, .nav-contacts__phone:focus .nav-contacts__icon {
   fill: var(--accent-txt);
 }
 
@@ -1382,7 +1383,7 @@ img {
           align-items: center;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  width: 170px;
+  width: 210px;
   height: 92px;
   -webkit-transition: border-color 250ms var(--cubic);
   transition: border-color 250ms var(--cubic);
@@ -1394,6 +1395,16 @@ img {
 .clients__link:focus {
   border-color: var(--accent-txt);
   fill: var(--accent-txt);
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .clients__link {
+    width: 226px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients__link {
+    width: 170px;
+  }
 }
 
 .clients__icon {

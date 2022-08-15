@@ -125,21 +125,21 @@
     }
   }
 
-  .nav-contacts__icon {
-    fill: #757575;
-    transition: fill 250ms var(--cubic);
+  
+}
+.nav-contacts__icon {
+  fill: #757575;
+  transition: fill 250ms var(--cubic);
 
-    .nav-contacts__mail:focus &,
-    .nav-contacts__mail:hover & {
-      fill: var(--accent-txt);
-    }
-
-    .nav-contacts__phone:hover &,
-    .nav-contacts__phone:focus & {
-      fill: var(--accent-txt);
-    }
+  .nav-contacts__mail:focus &,
+  .nav-contacts__mail:hover & {
+    fill: var(--accent-txt);
   }
- 
+
+  .nav-contacts__phone:hover &,
+  .nav-contacts__phone:focus & {
+    fill: var(--accent-txt);
+  }
 }
 .nav__link--current {
   position: relative;

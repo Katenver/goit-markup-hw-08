@@ -46,7 +46,7 @@
     align-items: center;
     border: 1px solid #afb1b8;
     border-radius: 4px;
-    width: 170px;
+    width: 210px;
     height: 92px;
     transition: border-color 250ms var(--cubic);
   
@@ -58,7 +58,13 @@
     border-color: var(--accent-txt);
     fill: var(--accent-txt);
   }
-  
+
+  @media screen and(min-width:768px) and(max-width:1199px) {
+    width: 226px;
+  }
+  @media screen and(min-width:1200px) {
+    width: 170px;
+  }
   
 }
   .clients__icon {
