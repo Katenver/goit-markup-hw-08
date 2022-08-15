@@ -25,10 +25,7 @@
     align-items: center;
     padding: 16px 15px;
 
-    @media screen and(max-width: 767px) {
-        width: auto;
-        margin: 0px;
-      }
+    
     @media screen and(min-width: 1200px) {
         padding: 0 15px;
     }
