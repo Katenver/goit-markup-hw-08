@@ -7,15 +7,10 @@
     z-index: 100;
 
     width: 100%;
-    max-height: 796px;
     height: 100%;
-
-    
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
-
-   
 
     transition: opacity var(--cubic), visibility var(--cubic);
     
@@ -28,8 +23,7 @@
         opacity: 1;
         pointer-events: initial;
         visibility: visible;
-        
-        
+          
         
     }
     
@@ -41,7 +35,8 @@
     flex-direction: column;
 
     margin-left: auto;
-    max-width: auto;
+    
+    width: 100%;
     height: 100%;
     background-color: rgba(255, 255, 255, 1);
     padding: 0 0 0 40px;
@@ -84,7 +79,7 @@
     margin-top: 48px;
     padding-left: 0%;
     @extend %reset-list;
-    margin-bottom: 302px;
+    margin-bottom: auto;
 }
 
 .mobile-menu__item {
