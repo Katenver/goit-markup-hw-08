@@ -43,7 +43,6 @@ p {
 img {
   display: block;
   max-width: 100%;
-  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
@@ -170,7 +169,7 @@ img {
           justify-content: center;
   padding-left: 0px;
 }
-@media screen and (min-width: 768px) and (max-width: 1199.9px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .social-list {
     padding-left: 0;
   }
@@ -1092,12 +1091,6 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   gap: 30px;
 }
 @media screen and (min-width: 768px) {
@@ -1107,16 +1100,6 @@ img {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .advantage__list {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
 }
 
@@ -1193,7 +1176,6 @@ img {
 
 .scope__container {
   padding-bottom: 94px;
-  padding-top: 94px;
 }
 
 .scope__title {
@@ -1365,7 +1347,7 @@ img {
 .clients {
   padding: 60px 0;
 }
-@media screen and (min-width: 768px) and (max-width: 1199.2px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .clients {
     padding: 65px 0;
   }
@@ -1779,7 +1761,7 @@ img {
 .projects-list__name {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 
