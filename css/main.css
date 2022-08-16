@@ -43,6 +43,7 @@ p {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
@@ -1697,6 +1698,7 @@ img {
 .projects-list__thumb {
   position: relative;
   overflow: hidden;
+  height: 294px;
 }
 
 .overlay {
