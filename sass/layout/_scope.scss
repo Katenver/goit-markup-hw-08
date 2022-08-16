@@ -1,11 +1,18 @@
 .scope {
     display: none;
-    @media screen and (min-width: 1200px){
-      display: contents;
-      
+
+    @media screen and (min-width: 1200px) {
+     
+       
+       display: contents;
     }
-    padding: 0 0 94px 0;
+    
   }
+  .scope__container{
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
+  
   
   .scope__title {
     margin-bottom: 50px;
@@ -36,7 +43,7 @@
     position: relative;
     margin: 0%;
     padding: 0%;
-    max-width: 370px;
+    width: 370px;
   }
   
   .scope__subtitle {
