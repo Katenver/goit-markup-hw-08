@@ -560,15 +560,21 @@ img {
 }
 
 .agreement-form__text {
-  font-size: 14px;
+  font-size: 12px;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
   text-underline-position: under;
-  line-height: 1.71;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: #757575;
+}
+@media screen and (min-width: 1200px) {
+  .agreement-form__text {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .agreement-form__link {
@@ -1090,6 +1096,7 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  gap: 30px;
 }
 @media screen and (min-width: 768px) {
   .advantage__list {
@@ -1098,7 +1105,6 @@ img {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    gap: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1112,16 +1118,14 @@ img {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.9px) {
   .advantage__item {
-    max-width: 370px;
     display: block;
     -ms-flex-preferred-size: calc((100% - 0px) / 1);
         flex-basis: calc((100% - 0px) / 1);
-    margin-bottom: 30px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199.9px) {
   .advantage__item {
     margin-bottom: 0px;
   }

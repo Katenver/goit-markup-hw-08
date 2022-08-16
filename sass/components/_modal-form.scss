@@ -124,12 +124,17 @@
 }
 
 .agreement-form__text {
-    font-size: 14px;
+    font-size: 12px;
     user-select: none;
     text-underline-position: under;
-    line-height: 1.71;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     color: #757575;
+    @media screen and(min-width:1200px){
+        font-size: 14px;
+        line-height: 1.71;
+    }
+    
 }
 
 .agreement-form__link {
