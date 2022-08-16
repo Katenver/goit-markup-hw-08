@@ -224,10 +224,11 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 20px;
+  margin-top: 60px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .footer-social__title {
-    margin-top: 60px;
+    margin-top: 0px;
   }
 }
 
@@ -1488,6 +1489,8 @@ img {
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     padding-right: 15px;
   }
 }
